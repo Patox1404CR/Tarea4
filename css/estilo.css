@@ -1,0 +1,167 @@
+body 
+{ 
+    font: normal .8em arial, sans-serif;
+    background: #C4E9E8 url(../images/back.png) repeat-x;
+    color: #555;
+}
+
+marquee
+{
+    height:20%;
+    overflow: hidden;
+}
+
+main h3
+{
+    color:#E5017D;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+
+thead, tfoot
+{
+    background-color: #E5017D;
+    color: #FFF;
+}
+
+aside:first-child
+{
+    margin-top: 15px;
+}
+
+
+#contenedorPrincipal 
+{ 
+    background: transparent url(../images/grass.png) repeat-x bottom;
+}
+
+#contenedor
+{
+    margin-bottom: 10px;
+    background-color:#FFF;
+    position:relative;
+    border: 1px;
+    border-radius: 15px;
+    padding:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#disponibles
+{
+    background: #53C7FD;
+    color: #FFF;
+}
+
+.container
+{
+    width: 70%;
+}
+
+.navbar
+{
+    margin-bottom: 0px;
+}
+
+.dropdown li a
+{
+    font: normal .8em arial, sans-serif;
+}
+
+.navbar, .dropdown-menu, .dropdown
+{
+    background-color:#53C7FD;
+}
+
+.dropdown a:hover
+{
+    background-color: #53C7FD;
+}
+
+.navPrincipal
+{
+    margin:10px;
+    padding:5px;
+    height: 45px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    font: normal 1.3em arial, sans-serif;
+}
+
+.navbar a
+{
+    color: #FFF;
+}
+
+
+.aside
+{
+    float:let; 
+    margin:5px;
+    padding:5px;
+    border:solid 1px;
+    border-color:#C9E5E9;
+    border-radius:5px;
+    background-color:#F5FEFF;
+    overflow: hidden;
+}
+
+.aside h5
+{
+    color:yellowgreen;
+}
+
+.imagen
+{
+    margin-left:20px;
+    margin-top:50px;
+    padding:10px;
+    border: solid 1px;
+    border-color:lightgray;
+}
+
+.navFooter
+{
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+    line-height: 20px;
+    color: #FFF;
+}
+
+.navFooterAs a
+{
+    color:#FFF;
+    border-right: solid 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: medium;
+}
+
+.navFooterAs .ultimo
+{
+    border-right: 0px;
+}
+
+.navFooterAs, .navbar a:hover
+{
+    color:#E5017D;
+}
+
+.noticia1
+{
+    background-color: beige;
+}
+
+.noticia2
+{
+    background-color:bisque;
+}
+
+.tablaGaleria
+{
+    height: 80%;
+}
+
+tr:nth-child(even) {
+    background-color: #90dce0;
+}
